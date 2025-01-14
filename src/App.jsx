@@ -8,6 +8,7 @@ import Displaycar from './components/Displaycar.jsx';
 
 function Createbody(data){
     return <Body key={data.id}TITLE = {data.title} DESC = {data.desc} PRICE = {data.price} IMG={data.img} VID={data.vid}/>
+ 
 }
 
 
